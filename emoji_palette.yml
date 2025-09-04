@@ -7,6 +7,7 @@ status_icons:
   budding: "🌼"
   bloom: "🌺"
   dormant: "🍂"
+  active: "🟢"
 glyph_icons:
   anchor: "⚓️"
   lineage: "🧬"
