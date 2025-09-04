@@ -312,3 +312,10 @@
   kind: governance
   gloss_ref: requirements_lifecycle_management
   deprecated: false
+
+- key: accountant_model
+  label: The Accountant
+  description: Modular financial dashboard
+  kind: core system
+  gloss_ref: accountant_model
+  deprecated: false
