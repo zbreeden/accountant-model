@@ -39,3 +39,17 @@
   meaning: "Paused; security/maintenance only; clearly labeled."
   criteria: ["archived_notice"]
   allowed_next: ["sprout"]
+
+- id: active
+  label: "Active"
+  emoji: "🟢"
+  order: 40
+  meaning: "Currently in use, regularly updated, and monitored."
+  criteria:
+    - "README and seeds (glossary.yml, tags.yml, statuses.yml) are present and current"
+    - "Live demo/site or artifact is reachable and functioning"
+    - "Owner assigned and contactable"
+    - "Meaningful commit or content update within the last 30 days"
+    - "Key analytics/telemetry (e.g., GA4/GTM or equivalent) wired where applicable"
+    - "Open issues/roadmap tracked; no critical blockers outstanding"
+  allowed_next: ["maintenance", "paused", "deprecated", "archived"]
