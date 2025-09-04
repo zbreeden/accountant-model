@@ -317,5 +317,5 @@
   label: The Accountant
   description: Modular financial dashboard
   kind: core system
-  gloss_ref: accountant_model
+  gloss_ref: accountant-model
   deprecated: false
