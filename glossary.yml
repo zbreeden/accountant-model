@@ -1234,3 +1234,20 @@
     course: IBM Data Analytics
     module: Module 2 – File Formats
   status: draft
+
+- key: accountant-model
+  term: The Accountant
+  definition: 'A dashboard module meant to better manage FourTwenty Analytics financials.'
+  examples:
+  - What is our monthly spend?
+  see_also:
+  - financials
+  - models
+  tags:
+  - financials
+  - ledger
+  orbit: Core System
+  source:
+    course: 
+    module: 
+  status: active
