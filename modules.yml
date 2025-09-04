@@ -11,11 +11,11 @@
 
 - id: accountant_model
   name: Accountant Model
-  emoji: "🚀"
-  orbit: launch
-  status: bloom
-  tags: [portfolio, entry]   # ← source of truth lives here
-  glyphs: [anchor]           # (optional, if glyphs are separate from tags)
-  repo_url: https://github.com/zbreeden/launch-model
-  pages_url: https://zbreeden.github.io/launch-model/
+  emoji: "💰"
+  orbit: core
+  status: active
+  tags: [portfolio, financials]   # ← source of truth lives here
+  glyphs: [accountant]           # (optional, if glyphs are separate from tags)
+  repo_url: https://github.com/zbreeden/accountant-model
+  pages_url: https://zbreeden.github.io/accountant-model/
   owners: [zach]
