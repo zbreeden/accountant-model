@@ -1,9 +1,9 @@
 orbit_icons:
-  core: "🌞"
+  core: "🪐"
   delivery-insight: "📈"
   growth-experiment: "🧪"
-  elemental-system: "⚛️"
-  orbit-ops: "🛰️"
+  elemental-system: "☀️"
+  ancillary-operations: "🧩"
 
 status_icons:
   seed: "🌱"
@@ -27,14 +27,22 @@ glyph_icons:
   bank: "💳"
   evaluator: "🧮"
   story: "📖"
-  grower: "🌱"
-  catalyst: "⚙️"
+  grower: "🌻"
+  catalyst: "⚡"
   player: "🎲"
   gambler: "🎰"
   trainer: "🏋️"
-  coach: "💪"   # locked for RoutineIQ/The Coach
+  coach: "💪"   
   orbiter: "🛰️"
   firm: "🏢"
   mirror: "🪞"
   fourtwentyanalytics: "🔘"
+  developer: "✨"
+  protector: "🛡️"
   accountant: "💰"
+
+tech_icons:
+  python: "🐍"
+  sql: "🗄️"
+  excel: "📊"
+  aws: "☁️"

@@ -1,0 +1,24 @@
+# schema/funnel_spec.yml
+version: 1
+funnels:
+skills:
+  - skill_track_code: SK-FINANCIALS
+    skill_track_name: 
+    skill_track_description: 
+    skill_is_completed: false
+    skill_status: 
+    skill_track_last_update_date: 
+    archives:
+      - archive_id: 
+        archive_id_name: 
+        archive__id_description: 
+        archive_status: 
+        archive_last_update_date: 
+        archive_is_complete: 
+        steps:
+          - step_id:
+            step_id_name:
+            step_status:
+            step_update_date:
+            step_metric:
+            step_metric_value:

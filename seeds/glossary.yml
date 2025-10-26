@@ -1,4 +1,4 @@
-- key: analyst-skills
+- key: analyst_skills
   term: Analyst Skills (Technical, Functional, Soft)
   definition: 'Blend of tool proficiency (spreadsheets, SQL, viz tools, programming), functional capabilities (statistics, analytical thinking, problem-solving, probing, project management), and soft skills (collaboration, communication, storytelling, curiosity, informed intuition).
 
@@ -7,7 +7,7 @@
   - SQL for joins; Power BI dashboards; stakeholder workshop; narrative readout
   see_also:
   - sql
-  - data-visualization
+  - data_visualization
   - statistics
   - storytelling
   tags:
@@ -18,7 +18,17 @@
     course: IBM Data Analytics
     module: Module 1 – Skills
   status: draft
-- key: apache-spark
+- key: anchor
+  term: Anchor
+  definition: 'A primary navigation root or canonical starting point.
+
+    '
+  examples:
+  - Launch Model as the portfolio entry
+  see_also:
+  - portfolio
+  - nav
+- key: apache_spark
   term: Apache Spark
   definition: 'Distributed processing engine (batch & streaming) with in-memory acceleration and APIs for SQL, Python, R, Java/Scala.
 
@@ -28,7 +38,7 @@
   see_also:
   - hadoop
   - hdfs
-  - data-streams
+  - data_streams
   tags:
   - ibm
   - big-data
@@ -38,7 +48,7 @@
     course: IBM Data Analytics
     module: Module 2 – Big Data Tools
   status: draft
-- key: babok-guide
+- key: babok_guide
   term: BABOK Guide
   definition: 'The Guide to the Business Analysis Body of Knowledge from IIBA that defines the profession and describes commonly accepted practices, knowledge areas, tasks, techniques, and underlying competencies.
 
@@ -47,7 +57,7 @@
   - Referencing BABOK when mapping The Trainer tasks to knowledge areas
   see_also:
   - iiba
-  - babok-knowledge-areas
+  - babok_knowledge_areas
   tags:
   - cbap
   - standard
@@ -56,7 +66,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: babok-knowledge-areas
+- key: babok_knowledge_areas
   term: BABOK Knowledge Areas
   definition: 'Six domains that organize BA work: Business Analysis Planning & Monitoring; Elicitation & Collaboration; Requirements Life Cycle Management; Strategy Analysis; Requirements Analysis & Design Definition; and Solution Evaluation.
 
@@ -65,9 +75,9 @@
   - Tagging Trainer tasks with the relevant knowledge area
   see_also:
   - elicitation
-  - requirements-lifecycle-management
-  - strategy-analysis
-  - solution-evaluation
+  - requirements_lifecycle_management
+  - strategy_analysis
+  - solution_evaluation
   tags:
   - cbap
   - framework
@@ -90,7 +100,7 @@
   - stakeholder
   - value
   - context
-  - babok-guide
+  - babok_guide
   tags:
   - cbap
   - framework
@@ -99,7 +109,7 @@
     course: CBAP
     module: Module 2 – BACCM & Techniques
   status: draft
-- key: bi-analyst
+- key: bi_analyst
   term: Business Intelligence (BI) Analyst
   definition: 'Organizes and monitors business data, builds standardized reports/dashboards, and explores trends to support performance decisions, often with market/external focus.
 
@@ -107,7 +117,7 @@
   examples:
   - Power BI sales dashboard with daily refresh and drill-downs
   see_also:
-  - data-analyst
+  - data_analyst
   - kpi
   - dashboard
   tags:
@@ -118,7 +128,7 @@
     course: IBM Data Analytics
     module: Module 1 – Roles
   status: draft
-- key: big-data-5vs
+- key: big_data_5vs
   term: Big Data (5 Vs)
   definition: 'Large, fast, diverse data where value depends on managing volume, velocity, variety—and quality (veracity)—to produce outcomes (value).
 
@@ -127,8 +137,8 @@
   - Clickstream + IoT + social signals for portfolio insights
   see_also:
   - hadoop
-  - apache-spark
-  - data-lake
+  - apache_spark
+  - data_lake
   tags:
   - ibm
   - big-data
@@ -137,7 +147,7 @@
     course: IBM Data Analytics
     module: Module 2 – Big Data
   status: draft
-- key: business-analysis
+- key: business_analysis
   term: Business Analysis
   definition: 'A disciplined practice that enables change by defining needs and recommending solutions that deliver value to stakeholders. Emphasizes articulating the rationale for change, shaping solutions, and ensuring delivered outcomes match expected value.
 
@@ -145,10 +155,10 @@
   examples:
   - Scoping FourTwenty initiatives before building (e.g., The Trainer)
   see_also:
-  - babok-guide
+  - babok_guide
   - stakeholder
-  - requirements-levels
-  - solution-evaluation
+  - requirements_levels
+  - solution_evaluation
   tags:
   - cbap
   - credentials
@@ -157,7 +167,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: business-glossary
+- key: business_glossary
   term: Business Glossary
   definition: 'A curated list of noun terms and clear definitions for a domain; the first step in building a Concept Model and reducing ambiguity.
 
@@ -165,8 +175,8 @@
   examples:
   - glossary.yml terms for GA4 events, modules, and roles
   see_also:
-  - concept-modeling
-  - data-dictionary
+  - concept_modeling
+  - data_dictionary
   tags:
   - cbap
   - knowledge
@@ -175,7 +185,7 @@
     course: CBAP
     module: Module 2
   status: draft
-- key: business-requirements
+- key: business_requirements
   term: Business Requirements
   definition: 'Statements of goals, objectives, and outcomes that justify a change and define what success looks like for the organization (often tied to KPIs).
 
@@ -183,8 +193,8 @@
   examples:
   - Increase GA4 event adoption by 50% within a month
   see_also:
-  - strategy-analysis
-  - stakeholder-requirements
+  - strategy_analysis
+  - stakeholder_requirements
   tags:
   - cbap
   - requirements
@@ -193,7 +203,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: cbap-certification
+- key: cbap_certification
   term: CBAP Certification
   definition: 'IIBA’s top-tier credential for experienced business analysts. Eligibility includes substantial BA experience (e.g., ~7,500 hours over 10 years) and professional development hours, followed by an exam.
 
@@ -202,7 +212,7 @@
   - Mapping Zach’s BA/ETL history to CBAP eligibility requirements
   see_also:
   - iiba
-  - babok-guide
+  - babok_guide
   tags:
   - cbap
   - credentials
@@ -231,7 +241,7 @@
     course: CBAP
     module: Module 2
   status: draft
-- key: concept-modeling
+- key: concept_modeling
   term: Concept Modeling
   definition: 'A technique to organize a domain’s vocabulary and relationships: start a noun-based glossary, add verb relationships, classify/specialize, and visualize for stakeholder alignment. Business-friendly, but not a data model and may set unrealistic build expectations; benefits from collaborative tools.
 
@@ -239,9 +249,9 @@
   examples:
   - 'Map FourTwenty terms: Event → is triggered by → Interaction; Event → belongs to → Module'
   see_also:
-  - business-glossary
-  - data-modeling
-  - requirements-levels
+  - business_glossary
+  - data_modeling
+  - requirements_levels
   - baccm
   tags:
   - cbap
@@ -271,7 +281,7 @@
     course: CBAP
     module: Module 2
   status: draft
-- key: data-analysis-process
+- key: data_analysis_process
   term: Data Analysis Process
   definition: 'Define the problem and desired outcome, set evaluation metrics, gather and clean data, analyze/mine and interpret, then communicate findings to drive decisions.
 
@@ -279,7 +289,7 @@
   examples:
   - 'Overbilling case study: hypotheses → datasets → patterns → stakeholder readout'
   see_also:
-  - data-wrangling
+  - data_wrangling
   - kpi
   - storytelling
   tags:
@@ -290,7 +300,7 @@
     course: IBM Data Analytics
     module: Module 1 – Process
   status: draft
-- key: data-analyst
+- key: data_analyst
   term: Data Analyst
   definition: 'Translates data into insights by acquiring, cleaning, analyzing, and visualizing data, then communicating findings that inform decisions.
 
@@ -298,9 +308,9 @@
   examples:
   - Analyze engagement WIP/throughput; publish weekly KPI report
   see_also:
-  - descriptive-analytics
-  - diagnostic-analytics
-  - data-visualization
+  - descriptive_analytics
+  - diagnostic_analytics
+  - data_visualization
   tags:
   - ibm
   - roles
@@ -309,7 +319,7 @@
     course: IBM Data Analytics
     module: Module 1 – Roles
   status: draft
-- key: data-ecosystem
+- key: data_ecosystem
   term: Data Ecosystem
   definition: 'Interconnected people, processes, tools, and infrastructure that acquire, store, process, and disseminate data from diverse sources so stakeholders can generate and act on insights.
 
@@ -319,7 +329,7 @@
   see_also:
   - etl
   - governance
-  - data-wrangling
+  - data_wrangling
   tags:
   - ibm
   - foundations
@@ -328,7 +338,7 @@
     course: IBM Data Analytics
     module: Module 1 – Intro & Ecosystem
   status: draft
-- key: data-engineer
+- key: data_engineer
   term: Data Engineer
   definition: 'Builds and maintains data architectures; integrates data from disparate sources; designs and operates repositories to make data accessible and reliable for analytics and applications.
 
@@ -337,8 +347,8 @@
   - Pipeline to collect GA events and land them in a queryable store
   see_also:
   - etl
-  - data-warehouse
-  - data-lake
+  - data_warehouse
+  - data_lake
   tags:
   - ibm
   - roles
@@ -347,7 +357,7 @@
     course: IBM Data Analytics
     module: Module 1 – Roles
   status: draft
-- key: data-lake
+- key: data_lake
   term: Data Lake
   definition: 'Storage for raw structured, semi-structured, and unstructured data in native formats, tagged for later processing.
 
@@ -355,9 +365,9 @@
   examples:
   - Raw GA4 export + scraped FAQs for feature discovery
   see_also:
-  - data-warehouse
+  - data_warehouse
   - etl
-  - nosql-database
+  - nosql_database
   tags:
   - ibm
   - repositories
@@ -366,7 +376,7 @@
     course: IBM Data Analytics
     module: Module 2 – Repositories
   status: draft
-- key: data-mart
+- key: data_mart
   term: Data Mart
   definition: 'Subject-area slice of a warehouse with isolated performance/security for a team or function.
 
@@ -374,8 +384,8 @@
   examples:
   - Marketing mart with engagement and campaign tables
   see_also:
-  - data-warehouse
-  - data-lake
+  - data_warehouse
+  - data_lake
   tags:
   - ibm
   - repositories
@@ -384,7 +394,7 @@
     course: IBM Data Analytics
     module: Module 2 – Repositories
   status: draft
-- key: data-pipeline
+- key: data_pipeline
   term: Data Pipeline
   definition: 'End-to-end system that moves/processes data (batch, streaming, or hybrid) from sources to destinations (lakes, apps, viz), of which ETL is a subset.
 
@@ -393,8 +403,8 @@
   - Event stream → stream processor → lake → dashboard
   see_also:
   - etl
-  - data-lake
-  - apache-spark
+  - data_lake
+  - apache_spark
   tags:
   - ibm
   - pipelines
@@ -403,7 +413,7 @@
     course: IBM Data Analytics
     module: Module 2 – ETL & Pipelines
   status: draft
-- key: data-scientist
+- key: data_scientist
   term: Data Scientist
   definition: 'Uses statistical and machine learning techniques to build predictive or prescriptive models, often requiring programming and domain knowledge.
 
@@ -411,9 +421,9 @@
   examples:
   - Forecast conversion rate from historical session data
   see_also:
-  - predictive-analytics
-  - prescriptive-analytics
-  - feature-engineering
+  - predictive_analytics
+  - prescriptive_analytics
+  - feature_engineering
   tags:
   - ibm
   - roles
@@ -422,7 +432,7 @@
     course: IBM Data Analytics
     module: Module 1 – Roles
   status: draft
-- key: data-sources
+- key: data_sources
   term: Data Sources
   definition: 'Origins of data for analytics: relational/non-relational databases, flat files/spreadsheets, APIs/web services, web scraping, data streams, social and sensor feeds.
 
@@ -430,10 +440,10 @@
   examples:
   - Twitter API for sentiment; Kafka clickstream; CRM DB extract
   see_also:
-  - relational-database
-  - nosql-database
-  - data-streams
-  - web-scraping
+  - relational_database
+  - nosql_database
+  - data_streams
+  - web_scraping
   tags:
   - ibm
   - sources
@@ -442,7 +452,7 @@
     course: IBM Data Analytics
     module: Module 2 – Sources
   status: draft
-- key: data-streams
+- key: data_streams
   term: Data Streams
   definition: 'Continuous, time-stamped event feeds from devices, apps, and services used for real-time analysis.
 
@@ -451,8 +461,8 @@
   - Pageview and engagement events flowing to a stream processor
   see_also:
   - etl
-  - data-pipeline
-  - apache-spark
+  - data_pipeline
+  - apache_spark
   tags:
   - ibm
   - sources
@@ -462,7 +472,7 @@
     course: IBM Data Analytics
     module: Module 2 – Sources
   status: draft
-- key: data-warehouse
+- key: data_warehouse
   term: Data Warehouse
   definition: 'Central, analysis-ready repository integrating cleansed and conformed data for BI/analytics.
 
@@ -470,9 +480,9 @@
   examples:
   - Conformed sessions, events, and outcomes for portfolio-wide KPIs
   see_also:
-  - data-mart
+  - data_mart
   - etl
-  - data-pipeline
+  - data_pipeline
   tags:
   - ibm
   - repositories
@@ -481,7 +491,7 @@
     course: IBM Data Analytics
     module: Module 2 – Repositories
   status: draft
-- key: delimited-text-file
+- key: delimited_text_file
   term: Delimited Text File (CSV/TSV)
   definition: 'Plain-text rows where fields are separated by a delimiter (comma, tab, etc.); widely supported, schema described by header row.
 
@@ -491,7 +501,7 @@
   see_also:
   - xlsx
   - json
-  - data-warehouse
+  - data_warehouse
   tags:
   - ibm
   - formats
@@ -500,7 +510,7 @@
     course: IBM Data Analytics
     module: Module 2 – File Formats
   status: draft
-- key: descriptive-analytics
+- key: descriptive_analytics
   term: Descriptive Analytics
   definition: 'Summarizes past data to show what happened over a period; baseline for monitoring KPIs and trends.
 
@@ -508,7 +518,7 @@
   examples:
   - Weekly pageviews by source in The Trainer
   see_also:
-  - diagnostic-analytics
+  - diagnostic_analytics
   - kpi
   tags:
   - ibm
@@ -518,7 +528,7 @@
     course: IBM Data Analytics
     module: Module 1 – Analysis Types
   status: draft
-- key: diagnostic-analytics
+- key: diagnostic_analytics
   term: Diagnostic Analytics
   definition: 'Investigates why an outcome occurred by drilling into segments, correlations, and drivers.
 
@@ -526,8 +536,8 @@
   examples:
   - Explain a traffic spike by campaign, landing page, and device
   see_also:
-  - descriptive-analytics
-  - root-cause
+  - descriptive_analytics
+  - root_cause
   tags:
   - ibm
   - analytics-types
@@ -545,7 +555,7 @@
   - Stakeholder discovery for GA4+GTM sprint goals
   see_also:
   - stakeholder
-  - requirements-levels
+  - requirements_levels
   tags:
   - cbap
   - requirements
@@ -562,8 +572,8 @@
   examples:
   - Nightly CSV ingest + real-time event transforms for ‘The Trainer’
   see_also:
-  - data-pipeline
-  - data-warehouse
+  - data_pipeline
+  - data_warehouse
   tags:
   - ibm
   - pipelines
@@ -572,7 +582,7 @@
     course: IBM Data Analytics
     module: Module 2 – ETL & Pipelines
   status: draft
-- key: functional-requirements
+- key: functional_requirements
   term: Functional Requirements
   definition: 'Behaviors the solution performs in response to inputs or events, often captured as acceptance criteria for user stories.
 
@@ -580,8 +590,8 @@
   examples:
   - Trigger 'scroll_opened' GA event when README panel expands
   see_also:
-  - solution-requirements
-  - non-functional-requirements
+  - solution_requirements
+  - non_functional_requirements
   tags:
   - cbap
   - requirements
@@ -590,7 +600,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: generative-ai-for-analysts
+- key: generative_ai_for_analysts
   term: Generative AI for Analysts
   definition: 'Models that create new content (text, images, code) and can accelerate analysis via summarization, data augmentation, scenario simulation, and automated drafting—used responsibly with awareness of limitations and bias.
 
@@ -598,9 +608,9 @@
   examples:
   - Draft a findings summary; synthesize scenarios; generate synthetic edge cases
   see_also:
-  - predictive-analytics
+  - predictive_analytics
   - ethics
-  - quality-assurance
+  - quality_assurance
   tags:
   - ibm
   - genai
@@ -609,7 +619,7 @@
     course: IBM Data Analytics
     module: Module 1 – Generative AI overview
   status: draft
-- key: given-when-then
+- key: given_when_then
   term: Given–When–Then (GWT)
   definition: 'A behavior-driven format for functional acceptance criteria capturing preconditions, action, and expected outcome (e.g., ‘Given on checkout, When user selects BNPL, Then open third-party interface’).
 
@@ -617,8 +627,8 @@
   examples:
   - Define acceptance tests for custom event capture
   see_also:
-  - functional-requirements
-  - solution-requirements
+  - functional_requirements
+  - solution_requirements
   tags:
   - cbap
   - requirements
@@ -638,7 +648,7 @@
   see_also:
   - hdfs
   - hive
-  - apache-spark
+  - apache_spark
   tags:
   - ibm
   - big-data
@@ -656,7 +666,7 @@
   - Store large raw parquet files with 3x replication
   see_also:
   - hadoop
-  - apache-spark
+  - apache_spark
   tags:
   - ibm
   - big-data
@@ -674,7 +684,7 @@
   - Ad-hoc aggregates on raw clickstream in HDFS
   see_also:
   - hadoop
-  - apache-spark
+  - apache_spark
   tags:
   - ibm
   - big-data
@@ -692,8 +702,8 @@
   examples:
   - Using ECBA/CCBA/CBAP levels to frame credentials on the Portfolio
   see_also:
-  - babok-guide
-  - cbap-certification
+  - babok_guide
+  - cbap_certification
   tags:
   - cbap
   - credentials
@@ -711,8 +721,8 @@
   - GTM → GA4 event payloads
   see_also:
   - xml
-  - semi-structured-data
-  - nosql-database
+  - semi_structured_data
+  - nosql_database
   tags:
   - ibm
   - formats
@@ -721,6 +731,16 @@
     course: IBM Data Analytics
     module: Module 2 – File Formats
   status: draft
+- key: lineage
+  term: Lineage
+  definition: 'Recorded ancestry of data and artifacts across ETL steps and modules.
+
+    '
+  examples:
+  - modules.parquet ← seeds/modules.yml (task=registry.materialize)
+  see_also:
+  - provenance
+  - audit
 - key: need
   term: Need
   definition: 'A problem or opportunity that motivates Change; needs can trigger changes and new changes can introduce further needs (iterative cycle).
@@ -741,7 +761,7 @@
     course: CBAP
     module: Module 2
   status: draft
-- key: non-functional-requirements
+- key: non_functional_requirements
   term: Non-Functional Requirements (Quality Attributes)
   definition: 'Conditions under which the solution must remain effective (e.g., security, performance, availability, accessibility, maintainability, recoverability, audit).
 
@@ -749,8 +769,8 @@
   examples:
   - Handle 100 requests per minute without delayed response
   see_also:
-  - solution-requirements
-  - solution-evaluation
+  - solution_requirements
+  - solution_evaluation
   tags:
   - cbap
   - quality
@@ -759,7 +779,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: nosql-database
+- key: nosql_database
   term: NoSQL Database
   definition: 'Non-relational stores with flexible schemas; common models include key-value, document, column-family, and graph—optimized for scale/performance.
 
@@ -767,8 +787,8 @@
   examples:
   - Document store for event payloads; key-value cache for sessions
   see_also:
-  - relational-database
-  - data-lake
+  - relational_database
+  - data_lake
   tags:
   - ibm
   - repositories
@@ -785,8 +805,8 @@
   examples:
   - Adapting Trainer backlog practices for a startup vs. a risk-averse enterprise
   see_also:
-  - babok-knowledge-areas
-  - underlying-competencies
+  - babok_knowledge_areas
+  - underlying_competencies
   tags:
   - cbap
   - approach
@@ -795,7 +815,17 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: predictive-analytics
+- key: portfolio
+  term: Portfolio
+  definition: 'Content intended for external viewing (landing pages, demos, docs). Aggregates public entry points across modules.
+
+    '
+  examples:
+  - Launch Model GitHub Pages site
+  see_also:
+  - launch
+  - entry
+- key: predictive_analytics
   term: Predictive Analytics
   definition: 'Uses historical patterns to estimate the likelihood of future outcomes; results are probabilistic.
 
@@ -803,8 +833,8 @@
   examples:
   - Forecast weekly sessions from seasonal history
   see_also:
-  - time-series
-  - data-scientist
+  - time_series
+  - data_scientist
   tags:
   - ibm
   - analytics-types
@@ -813,7 +843,7 @@
     course: IBM Data Analytics
     module: Module 1 – Analysis Types
   status: draft
-- key: prescriptive-analytics
+- key: prescriptive_analytics
   term: Prescriptive Analytics
   definition: 'Evaluates possible actions and their likely outcomes to recommend what to do next.
 
@@ -821,7 +851,7 @@
   examples:
   - Choose promo variant that maximizes predicted conversions
   see_also:
-  - predictive-analytics
+  - predictive_analytics
   - optimization
   tags:
   - ibm
@@ -839,9 +869,9 @@
   examples:
   - pandas transform for GA4 event features
   see_also:
-  - apache-spark
+  - apache_spark
   - sql
-  - r-language
+  - r_language
   tags:
   - ibm
   - languages
@@ -850,7 +880,7 @@
     course: IBM Data Analytics
     module: Module 2 – Languages
   status: draft
-- key: r-language
+- key: r_language
   term: R (Language)
   definition: 'Open-source environment for statistics, visualization, and analysis; extensible ecosystem (ggplot2, plotly) and report/app publishing.
 
@@ -868,7 +898,7 @@
     course: IBM Data Analytics
     module: Module 2 – Languages
   status: draft
-- key: relational-database
+- key: relational_database
   term: Relational Database (RDBMS)
   definition: 'Table-based store with defined schema and SQL querying; supports joins, integrity constraints, and ACID properties.
 
@@ -877,8 +907,8 @@
   - Dimensional model for reporting KPIs
   see_also:
   - sql
-  - nosql-database
-  - data-warehouse
+  - nosql_database
+  - data_warehouse
   tags:
   - ibm
   - repositories
@@ -887,7 +917,7 @@
     course: IBM Data Analytics
     module: Module 2 – Databases & Repositories
   status: draft
-- key: requirements-levels
+- key: requirements_levels
   term: Requirements Levels
   definition: 'BABOK groups requirements into four levels: Business (why outcomes), Stakeholder (needs/expectations by actor), Solution (capabilities and qualities), and Transition (temporary needs to move from current to future state).
 
@@ -895,10 +925,10 @@
   examples:
   - Mapping Trainer goals → user stories → acceptance criteria → rollout plan
   see_also:
-  - business-requirements
-  - stakeholder-requirements
-  - solution-requirements
-  - transition-requirements
+  - business_requirements
+  - stakeholder_requirements
+  - solution_requirements
+  - transition_requirements
   tags:
   - cbap
   - requirements
@@ -907,7 +937,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: requirements-lifecycle-management
+- key: requirements_lifecycle_management
   term: Requirements Life Cycle Management
   definition: 'Planning, tracing, maintaining, prioritizing, and approving requirements from discovery through change, ensuring they remain current and aligned to value.
 
@@ -915,8 +945,8 @@
   examples:
   - Trace GA4 events to stakeholder outcomes and update as scope changes
   see_also:
-  - requirements-levels
-  - solution-requirements
+  - requirements_levels
+  - solution_requirements
   tags:
   - cbap
   - requirements
@@ -925,7 +955,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: semi-structured-data
+- key: semi_structured_data
   term: Semi-Structured Data
   definition: 'Data with organizational properties but no rigid schema; uses tags/metadata (e.g., XML/JSON) and is often hierarchical.
 
@@ -933,11 +963,11 @@
   examples:
   - Webhook JSON payloads for events
   see_also:
-  - structured-data
-  - unstructured-data
+  - structured_data
+  - unstructured_data
   - json
   - xml
-  - nosql-database
+  - nosql_database
   tags:
   - ibm
   - data-types
@@ -966,7 +996,7 @@
     course: CBAP
     module: Module 2
   status: draft
-- key: solution-evaluation
+- key: solution_evaluation
   term: Solution Evaluation
   definition: 'Assessing a solution’s performance and value after or during delivery to verify it achieves the desired outcomes and to identify improvements.
 
@@ -974,8 +1004,8 @@
   examples:
   - Validate GA4 custom events deliver the engagement metrics promised
   see_also:
-  - business-requirements
-  - non-functional-requirements
+  - business_requirements
+  - non_functional_requirements
   tags:
   - cbap
   - quality
@@ -984,7 +1014,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: solution-requirements
+- key: solution_requirements
   term: Solution Requirements
   definition: 'Capabilities and qualities the solution must have to meet stakeholder needs; split into functional (behaviors/acceptance criteria) and non-functional (quality attributes and constraints).
 
@@ -992,8 +1022,8 @@
   examples:
   - Send reminder email when session expires and items remain in cart
   see_also:
-  - functional-requirements
-  - non-functional-requirements
+  - functional_requirements
+  - non_functional_requirements
   tags:
   - cbap
   - requirements
@@ -1010,7 +1040,7 @@
   examples:
   - Windowed KPI rollups in a warehouse
   see_also:
-  - relational-database
+  - relational_database
   - hive
   tags:
   - ibm
@@ -1029,7 +1059,7 @@
   - Data consumer for GA4 metrics (marketing analyst, product owner)
   see_also:
   - elicitation
-  - stakeholder-requirements
+  - stakeholder_requirements
   tags:
   - cbap
   orbit: Delivery & Insight
@@ -1037,7 +1067,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: stakeholder-requirements
+- key: stakeholder_requirements
   term: Stakeholder Requirements
   definition: 'Needs and expectations of specific stakeholders or user groups, often expressed as user stories to clarify who needs what and why.
 
@@ -1045,8 +1075,8 @@
   examples:
   - As a visitor, I want my cart retained so I can resume later
   see_also:
-  - business-requirements
-  - solution-requirements
+  - business_requirements
+  - solution_requirements
   - elicitation
   tags:
   - cbap
@@ -1056,7 +1086,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: strategy-analysis
+- key: strategy_analysis
   term: Strategy Analysis
   definition: 'Pre-project analysis to understand the current and future states, define business goals and scope, and select initiatives that deliver value.
 
@@ -1064,8 +1094,8 @@
   examples:
   - Define objectives for The Trainer (ritual cadence, streak goals)
   see_also:
-  - business-requirements
-  - solution-evaluation
+  - business_requirements
+  - solution_evaluation
   tags:
   - cbap
   - planning
@@ -1074,7 +1104,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: structured-data
+- key: structured_data
   term: Structured Data
   definition: 'Data with a well-defined schema (rows/columns) that fits relational tables and standard analytical methods.
 
@@ -1082,9 +1112,9 @@
   examples:
   - Survey response table; GA session table
   see_also:
-  - semi-structured-data
-  - unstructured-data
-  - relational-database
+  - semi_structured_data
+  - unstructured_data
+  - relational_database
   tags:
   - ibm
   - data-types
@@ -1093,7 +1123,7 @@
     course: IBM Data Analytics
     module: Module 2 – Data Types & Sources
   status: draft
-- key: transition-requirements
+- key: transition_requirements
   term: Transition Requirements
   definition: 'Temporary capabilities and conditions needed to move from current to future state, such as data migration, training, and phased releases.
 
@@ -1101,8 +1131,8 @@
   examples:
   - Migrate historic events to new GA4 property; train contributors
   see_also:
-  - requirements-levels
-  - solution-evaluation
+  - requirements_levels
+  - solution_evaluation
   tags:
   - cbap
   - delivery
@@ -1111,7 +1141,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: underlying-competencies
+- key: underlying_competencies
   term: Underlying Competencies
   definition: 'Human skills and business knowledge that complement BA methods—communication, facilitation, critical thinking, domain awareness—enabling effective practice.
 
@@ -1129,7 +1159,7 @@
     course: CBAP
     module: Module 1 – Introduction
   status: draft
-- key: unstructured-data
+- key: unstructured_data
   term: Unstructured Data
   definition: 'Data without a predefined format (text, images, audio/video, PDFs) that does not map cleanly to rows/columns.
 
@@ -1137,9 +1167,9 @@
   examples:
   - Session recordings, support emails, screenshots
   see_also:
-  - semi-structured-data
-  - data-lake
-  - nosql-database
+  - semi_structured_data
+  - data_lake
+  - nosql_database
   tags:
   - ibm
   - data-types
@@ -1176,8 +1206,8 @@
   examples:
   - Manual backlog tracker with streak metrics
   see_also:
-  - delimited-text-file
-  - data-wrangling
+  - delimited_text_file
+  - data_wrangling
   tags:
   - ibm
   - formats
@@ -1195,7 +1225,7 @@
   - Survey exports with hierarchical question blocks
   see_also:
   - json
-  - semi-structured-data
+  - semi_structured_data
   tags:
   - ibm
   - formats

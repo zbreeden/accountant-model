@@ -287,7 +287,7 @@
 
 - key: data_sources
   label: Data Sources
-  description: Origins: DBs, files, APIs, streams, etc.
+  description: "Origins: DBs, files, APIs, streams, etc."
   kind: source
   gloss_ref: data_sources
   deprecated: false

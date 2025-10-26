@@ -1,3 +1,26 @@
+- id: elemental-system
+  label: "Elemental System"
+  emoji: "☀️"
+  order: 0
+  meaning: "The hub repo housing primitives—seeds, artifacts, README, and public index."
+  scope:
+    - "Hub README.md and index.html (portfolio entry)"
+    - "Canonical seed definitions (glossary.yml, tags.yml, statuses.yml, orbits.yml, registry.yml)"
+    - "Shared assets, scaffolds, and templates"
+    - "Governance notes and contribution guidelines"
+  includes:
+    - repo: "FourTwentyAnalytics"  # 🔘 barycenter & suitekeeper
+  kpis:
+    - "Seed schema validity (lint/CI passing)"
+    - "Cross-repo seed compliance rate"
+    - "Hub uptime and README freshness"
+    - "Index render health (README/Pages load without errors)"
+  policies:
+    - "Schema changes require version bump and migration notes"
+    - "Hub remains public; CI must pass before merge"
+    - "Backwards-compatible deprecations for seed keys"
+  see_also: ["core", "delivery-insight", "growth-experiment", "orbit-ops"]
+
 - id: core
   label: "Core Systems"
   emoji: "🪐"
@@ -8,9 +31,10 @@
     - "Seeds & governance"
     - "Signals & analytics"
   includes:
-    - repo: "launch-model"   # 🚀 foundation / entry
-    - repo: "archive-model"  # 🫀 heart / records
-    - repo: "signal-model"   # 📡 nerves / telemetry
+    - repo: "launch-model"         # 🚀 foundation / entry
+    - repo: "archive-model"        # 🫀 heart / records
+    - repo: "signal-model"         # 📡 nerves / telemetry
+    - repo: "protector-model"      # 📡 integrity / QA
   kpis:
     - "Seeds compliance across repos (glossary.yml, tags.yml, statuses.yml present)"
     - "Telemetry coverage and event quality"
@@ -18,7 +42,7 @@
   policies:
     - "Seed schema changes require PR + migration notes"
     - "Core repos must remain public and pass CI checks"
-  see_also: ["delivery-insight", "growth-experiment", "orbit-ops"]
+  see_also: ["delivery-insight", "growth-experiment", "orbit-ops", "elemental"]
 
 - id: delivery-insight
   label: "Delivery & Insight"
@@ -30,9 +54,11 @@
     - "Release readiness, QA, and demo assets"
     - "Stakeholder reporting & KPIs"
   includes:
-    - repo: "evaluator-model"   # 🧮 analytics & reporting
-    - repo: "anchor-model"      # ⚓ portfolio anchors
-    - repo: "bank-model"        # 💳 delivery metrics & demos
+    - repo: "evaluator-model"         # 🧮 analytics & reporting
+    - repo: "bank-model"              # 💳 delivery metrics & demos
+    - repo: "visualizer-model"        # 🎨 datasets & storytelling
+    - repo: "catalyst-model"          # ⚡ ticketing & scenario analysis
+    - repo: "story-model"             # 📖 narrative triggers & signals
   kpis:
     - "On-time delivery rate and demo reliability"
     - "Dashboard adoption/engagement (views, sessions, CTA)"
@@ -53,8 +79,10 @@
     - "Optimization loops and growth playbooks"
   includes:
     - repo: "grower-model"      # 🌱 optimization engine
-    - repo: "player-model"      # 🎲 scenarios & sims
-    - repo: "story-model"       # 📖 narrative triggers & signals
+    - repo: "player-model"      # 🎮 scenarios & sims
+    - repo: "gambler-model"     # 🎲 probability analysis
+    - repo: "trainer-model"     # 🧭 personal development
+    - repo: "coach-model"       # 💪 fitness & lifestyle
   kpis:
     - "Experiment velocity (launched per week) and win rate"
     - "Lift on target metrics (conversion, retention, LTV)"
@@ -64,9 +92,9 @@
     - "Archive results with learnings and rollout decisions"
   see_also: ["core", "delivery-insight", "orbit-ops"]
 
-- id: orbit-ops
-  label: "Orbit Ops"
-  emoji: "🛰️"
+- id: ancillary-operations
+  label: "Ancillary Operations"
+  emoji: "🧩"
   order: 40
   meaning: "Operational plumbing: automation, CI/CD, governance, and reliability."
   scope:
@@ -76,7 +104,10 @@
   includes:
     - repo: "orbiter-model"     # 🛰️ automation & pulses
     - repo: "firm-model"        # 🏢 org/hub configuration
-    - repo: "catalyst-model"    # ⚙️ build & release tooling
+    - repo: "anchor-model"      # ⚓ portfolio anchors
+    - repo: "mirror-model"      # 🪞 reflection & self-awareness
+    - repo: "accountant-model"  # 💰 managing financials
+    
   kpis:
     - "Pulse success rate and mean time to repair (MTTR)"
     - "Seed compliance across repos and drift alerts"
@@ -85,26 +116,3 @@
     - "Breaking seed/schema changes require migration PRs and version bumps"
     - "All automations run least-privilege tokens and are audited quarterly"
   see_also: ["core", "delivery-insight", "growth-experiment"]
-
-- id: elemental-system
-  label: "Elemental System"
-  emoji: "⚛️"
-  order: 0
-  meaning: "The hub repo housing primitives—seeds, artifacts, README, and public index."
-  scope:
-    - "Hub README.md and index.html (portfolio entry)"
-    - "Canonical seed definitions (glossary.yml, tags.yml, statuses.yml, orbits.yml, registry.yml)"
-    - "Shared assets, scaffolds, and templates"
-    - "Governance notes and contribution guidelines"
-  includes:
-    - repo: "FourTwentyAnalytics"  # hub repo
-  kpis:
-    - "Seed schema validity (lint/CI passing)"
-    - "Cross-repo seed compliance rate"
-    - "Hub uptime and README freshness"
-    - "Index render health (README/Pages load without errors)"
-  policies:
-    - "Schema changes require version bump and migration notes"
-    - "Hub remains public; CI must pass before merge"
-    - "Backwards-compatible deprecations for seed keys"
-  see_also: ["core", "delivery-insight", "growth-experiment", "orbit-ops"]
