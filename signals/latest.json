@@ -1,0 +1,33 @@
+{
+  "id": "20251028T004118Z-having_fun",
+  "ts_utc": "2025-10-28T00:41:18Z",
+  "module": "Accountant Model",
+  "repo": "accountant-model",
+  "title": "Testing New Barycenter Broadcast Paradigm",
+  "summary": "This is pushing the new new-broadcast.sh shell to all stars.",
+  "rating": "normal",
+  "origin": {
+    "name": "Accountant Model",
+    "url": "https://zbreeden.github.io/accountant-model/",
+    "emoji": "💰"
+  },
+  "status": "sprout",
+  "links": {
+    "readme": "https://github.com/zbreeden/accountant-model#readme",
+    "page": "https://zbreeden.github.io/accountant-model/"
+  },
+  "payload": {
+    "orbit": "ancillary-operations",
+    "status": "sprout",
+    "notes": "USER SKILLS - Test,Architecture",
+    "skills": [
+      "Test",
+      "Architecture"
+    ],
+    "module_key": "accountant_model",
+    "broadcast_key": "having_fun",
+    "tags": [
+      "new"
+    ]
+  }
+}
